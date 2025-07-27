@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    /* background-image: linear-gradient(to right bottom, rgb(55, 119, 197), rgb(147, 51, 234)); */
+    background-color: #1C3680;
+
+
+}
+
+nav {
+
+    height: 5rem;
+    width: 100%;
+    /* background-color: chocolate; */
+    padding: 1.5rem;
+
+}
+
+.navcontainer {
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    padding: 0 7.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    padding: 11vh 1rem 0;
+}
+
+
+.navitems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.humbergericon{
+    visibility: hidden;
+    display: none;
+}
+
+.homecontainer {
+    /* 
+background-color: aqua; */
+
+    margin: 0 30vw;
+
+    /* background-color: brown; */
+
+}
+
+.floatingdiv {
+
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    background-color: #7B6AF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.sj {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.mynamecomtainer {
+    font-size: 4.5rem;
+    text-align: center;
+    color: #B38AFB;
+}
+
+.role {
+    margin-top: 2rem;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.role h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #9CA3AF;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.buttonscontainer {
+    margin-top: 2rem;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttonscontainer>a {
+    height: 3.5rem;
+    padding: 1rem 2rem;
+    background-color: #5833D2;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.socialmedia {
+    padding-top: 2rem;
+    margin-top: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.socialmedia>a {
+    padding: 12px;
+    height: 1.5rem;
+    width: 1.5rem;
+
+    border-radius: 50%;
+
+}
+
+.socialmedia>a>img {
+ height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+@media (max-width:350px) {
+
+    #home{
+        padding-left:1rem ;
+        padding-right: 1rem;
+    }
+  .homecontainer{
+    margin: 0;
+  }  
+
+  .mynamecomtainer{
+    font-size: 3rem;
+  }
+
+  .role h2 {
+    font-size: 1.5rem;
+}
+
+.navitems{
+    visibility: hidden;
+    display: none;
+}
+
+.nav{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1.5rem ;
+    padding-bottom: 1.5rem;
+    height:  89px;
+}
+
+.navcontainer{
+   
+  
+    display: flex;
+    justify-content: space-between;
+  padding: 0px;
+}
+
+.humbergericon{
+    visibility:visible;
+    display: inline;
+    height: 41px;
+    width: 41px;
+}
+
+.humbergericon img{
+    max-width:  100%;
+height: auto;
+}
+
+.buttonscontainer{
+    flex-direction: column;
+}
+
+}
